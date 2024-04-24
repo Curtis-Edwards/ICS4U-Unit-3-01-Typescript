@@ -15,16 +15,16 @@ function reverseString(stringToReverse: string): string {
     if (stringToReverse === "") {
         return ""
     } else {
-        let firstCharacterOfString: string = stringToReverse[0]
-        let restOfString: string = stringToReverse.slice(1)
+        const firstCharacterOfString: string = stringToReverse[0]
+        const restOfString: string = stringToReverse.slice(1)
         
         return reverseString(restOfString) + firstCharacterOfString
     }
 }
 
-let aString = "recusrsion"
+let aString = "racecar"
 
-console.log(`\nThe original string is: ${aString}`)
+console.log(`The original string is: ${aString}`)
 let theReverseString = reverseString(aString)
 console.log(`The reversed string is: ${theReverseString}`)
 
