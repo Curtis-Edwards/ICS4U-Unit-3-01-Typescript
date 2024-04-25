@@ -22,7 +22,7 @@ function reverseString(stringToReverse: string): string {
     }
 }
 
-let aString = "racecar"
+let aString = "Curtis"
 
 console.log(`The original string is: ${aString}`)
 let theReverseString = reverseString(aString)
